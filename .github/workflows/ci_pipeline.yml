@@ -55,7 +55,7 @@ jobs:
           # Membuat folder untuk menyimpan model final
           mkdir -p saved_artifacts
           # Menyalin model dari folder mlruns ke saved_artifacts
-          cp -r mlruns/0/$RUN_ID/artifacts/model saved_artifacts/
+          cp -r mlartifacts/0/$RUN_ID/artifacts/model saved_artifacts/
           git add saved_artifacts/
           git commit -m "Auto-update: Simpan artefak model terbaru [skip ci]" || echo "Tidak ada perubahan"
           git push

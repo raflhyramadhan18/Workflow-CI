@@ -1,4 +1,4 @@
-artifact_path: model
+artifact_path: /home/runner/work/Workflow-CI/Workflow-CI/mlruns/0/models/m-45d3b4497e284514bc97adc282e4bcf7/artifacts
 flavors:
   python_function:
     env:
@@ -13,8 +13,11 @@ flavors:
     pickled_model: model.pkl
     serialization_format: cloudpickle
     sklearn_version: 1.9.0
-mlflow_version: 2.19.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-45d3b4497e284514bc97adc282e4bcf7
 model_size_bytes: 20750222
-model_uuid: 0c07ac0036824df599f8d419d4b96841
-run_id: 4f99b9a261ec4745a80a854b7dcb295a
-utc_time_created: '2026-06-06 16:28:13.170591'
+model_uuid: m-45d3b4497e284514bc97adc282e4bcf7
+prompts: null
+run_id: d42e557699634fbc8460f6ce395eacbc
+utc_time_created: '2026-06-06 17:06:29.654516'
